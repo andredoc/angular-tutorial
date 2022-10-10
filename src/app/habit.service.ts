@@ -8,7 +8,7 @@ import { Habit } from './habit'
 })
 export class HabitService {
 //https://jsonplaceholder.typicode.com/posts/1/comments
-  habits: Habit[];
+  //habits: Habit[];
 
   // constructor(
   //   private http:HttpClient
@@ -23,8 +23,8 @@ export class HabitService {
   }
 
   addHabit($event:any) {
-    const id= this.habits.length + 1;
-    $event.id = id;
-    this.habits.push($event);
+    // const id= this.habits.length + 1;
+    // $event.id = id;
+    // this.habits.push($event);
   }
 }
